@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+* {
+    font-family:  'Poppins', serif;
+    margin: 0; padding: 0;
+    color: white;
+    text-transform: uppercase;
+    overflow-x: hidden;
+}
+
+#background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../img/background.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: blur(2px);
+    padding: 20px 10px;
+}
+
+body {
+    padding: 20px 10px;
+}
+
+header {
+    position: absolute;
+    width: 100vw;
+    text-align: center;
+}
+
+main {
+    position: absolute;
+    top: 30%;
+    margin: auto;
+    width: 100%;
+}
+
+#timezone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#location-timezone {
+    margin: 5px 10px;
+}
+
+#city {
+    margin: 10px;
+    text-align: center;
+}
+
+#temperature {
+    margin: 10px;
+}
+
+#degree, #description {
+    text-align: center;
+}
+
+#degree {
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    margin: auto;
+    border: 1px solid white;
+    border-radius: 50%;
+
+    strong {
+        position: relative;
+        top: 40%;
+        margin: 3px;
+    }
+}
+
+#description {
+    margin: 20px auto;
+}
+
+#infos {
+    max-width: 50%;
+    margin: auto;
+
+    display: flex;
+    justify-content: center;
+
+    p {
+        margin: 7px;
+        text-align: center;
+    }
+
+    @media (max-width: 500px) {
+        max-width: 100%;
+    }
+}
