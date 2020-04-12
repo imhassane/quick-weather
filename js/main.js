@@ -1,3 +1,4 @@
+// public key
 const API_KEY = "34383e7b10e62f60e2f9068e5e03cf5c";
 const icon = name => `http://openweathermap.org/img/wn/${name}@2x.png`;
 
